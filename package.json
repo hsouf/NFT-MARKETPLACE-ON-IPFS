@@ -4,7 +4,7 @@
   "description": "NFT IPFS  Marketplace",
   "author": "soufianehajazi23@gmail.com",
   "dependencies": {
-    "@openzeppelin/contracts": "^2.3.0",
+    "@openzeppelin/contracts": "^2.5.1",
     "@truffle/hdwallet-provider": "^1.4.1",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
@@ -22,7 +22,7 @@
     "react-dom": "16.8.4",
     "react-scripts": "2.1.3",
     "truffle": "5.0.5",
-    "truffle-flattener": "^1.4.2",
+    "truffle-flattener": "^1.5.0",
     "web3": "^1.4.0"
   },
   "scripts": {
@@ -33,6 +33,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "browserslist": [
     ">0.2%",

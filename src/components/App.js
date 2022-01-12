@@ -130,10 +130,10 @@ class App extends Component {
           </div>
           <hr />
         </div>
-        <Row className="row row-spacer-sm d-flex flex-row flex-start flex-nowrap overflow-auto">
+        <Row style={{ display: "flex", justifyContent: "center" }}>
           {tokens.map((item) => {
             return (
-              <Card style={{ width: "18rem", margin: "10px" }}>
+              <Card style={{ padding: "10px", margin: "10px", width: "25%" }}>
                 <Card.Img variant="top" src={item.uri} />
                 <Card.Body>
                   <Card.Title>Owner : {item.owner}</Card.Title>
