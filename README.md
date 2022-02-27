@@ -12,7 +12,7 @@ Implemented the ERC721 token standard interface with a small modification(using 
 
 ## Network 
 For now the ERC721 contract is deployed on the smart chain testnet 
-- Hosted Dapp on Netlify : https://elated-montalcini-e29c06.netlify.app/ 
+- Hosted Dapp on Netlify : https://eager-panini-b21811.netlify.app/
 
 
 ![Capture d’écran 2021-07-14 à 1 25 31 a m](https://user-images.githubusercontent.com/37840702/125543301-cb2b5255-d1d7-4ffd-a9b5-855d04aa5b85.png)
