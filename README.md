@@ -1,18 +1,21 @@
 # IPFS-NFT-MARKETPLACE 
-How about using IPFS to host your NFTs  in a decentralized way? This simple Dapp allows you to mint new tokens after successfully uploading the file to IPFS and getting the file hash(CID) which will be considered as the token ID in our smart contract (ERC721.sol). 
+How about using IPFS to host your NFTs  in a decentralized way? This simple Dapp allows you to mint new tokens after successfully uploading the file to IPFS. 
 
 To run the Dapp : 
-- npm install
-- npm start 
 
+```
+npm install
+
+npm start 
+```
 ## ERC721
 
-Contracts to be found in src/components/contracts
-Implemented the ERC721 token standard interface with a small modification(using string instead of uint256 to store token ID)
+Contracts to be found under components/contracts
+
 
 ## Network 
 For now the ERC721 contract is deployed on the smart chain testnet 
-- Hosted Dapp on Netlify : https://eager-panini-b21811.netlify.app/
+- Live preview : https://eager-panini-b21811.netlify.app/
 
 
 ![Capture d’écran 2021-07-14 à 1 25 31 a m](https://user-images.githubusercontent.com/37840702/125543301-cb2b5255-d1d7-4ffd-a9b5-855d04aa5b85.png)
